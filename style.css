@@ -19,4 +19,15 @@
 @media (min-width: 1024px) {
     .images { grid-template-columns: 1fr 1fr 1fr; }
 }
+.hover {
+  padding: 15px;
+  background: green;
+  color: white;
+one;
+}
+
+.hover:hover {
+  background: darkgreen;  
+  transform: scale(1.1);   
+}
 
