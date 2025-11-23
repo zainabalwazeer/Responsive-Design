@@ -30,4 +30,20 @@ one;
   background: darkgreen;  
   transform: scale(1.1);   
 }
+.options {
+  display: none;        
+  background: grey;     
+  padding: 4px;         
+}
+
+.dropdown:hover .options {
+  display: block;      
+}
+
+.options a {
+  display: block;       
+  padding: 5px;        
+  text-decoration: none;
+  color: black;
+}
 
